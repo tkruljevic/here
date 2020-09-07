@@ -1,0 +1,189 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="tamara.myappcompany.here"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+7-->C:\Users\tamar\AndroidStudioProjects\here\here\android\app\src\main\AndroidManifest.xml:4:5-17
+8        android:minSdkVersion="26"
+8-->C:\Users\tamar\AndroidStudioProjects\here\here\android\app\src\main\AndroidManifest.xml:4:5-17
+9        android:targetSdkVersion="28" />
+9-->C:\Users\tamar\AndroidStudioProjects\here\here\android\app\src\main\AndroidManifest.xml:4:5-17
+10
+11    <uses-permission android:name="android.permission.CAMERA" />
+11-->C:\Users\tamar\AndroidStudioProjects\here\here\android\app\src\main\AndroidManifest.xml:6:5-65
+11-->C:\Users\tamar\AndroidStudioProjects\here\here\android\app\src\main\AndroidManifest.xml:6:22-62
+12
+13    <uses-feature android:name="android.hardware.camera" />
+13-->C:\Users\tamar\AndroidStudioProjects\here\here\android\app\src\main\AndroidManifest.xml:8:5-60
+13-->C:\Users\tamar\AndroidStudioProjects\here\here\android\app\src\main\AndroidManifest.xml:8:19-57
+14    <uses-feature android:name="android.hardware.camera.autofocus" />
+14-->C:\Users\tamar\AndroidStudioProjects\here\here\android\app\src\main\AndroidManifest.xml:9:5-70
+14-->C:\Users\tamar\AndroidStudioProjects\here\here\android\app\src\main\AndroidManifest.xml:9:19-67
+15
+16    <application
+16-->C:\Users\tamar\AndroidStudioProjects\here\here\android\app\src\main\AndroidManifest.xml:11:5-65:19
+17        android:allowBackup="false"
+17-->C:\Users\tamar\AndroidStudioProjects\here\here\android\app\src\main\AndroidManifest.xml:12:9-36
+18        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+18-->[androidx.core:core:1.3.1] C:\Users\tamar\.gradle\caches\transforms-2\files-2.1\043271e157cf9cedd1d070e23019939c\core-1.3.1\AndroidManifest.xml:24:18-86
+19        android:debuggable="true"
+20        android:extractNativeLibs="false"
+21        android:icon="@mipmap/ic_launcher_logo"
+21-->C:\Users\tamar\AndroidStudioProjects\here\here\android\app\src\main\AndroidManifest.xml:13:9-48
+22        android:label="@string/app_name"
+22-->C:\Users\tamar\AndroidStudioProjects\here\here\android\app\src\main\AndroidManifest.xml:14:9-41
+23        android:roundIcon="@mipmap/ic_launcher_logo_round"
+23-->C:\Users\tamar\AndroidStudioProjects\here\here\android\app\src\main\AndroidManifest.xml:15:9-59
+24        android:supportsRtl="true"
+24-->C:\Users\tamar\AndroidStudioProjects\here\here\android\app\src\main\AndroidManifest.xml:16:9-35
+25        android:testOnly="true"
+26        android:theme="@style/Theme.Here" >
+26-->C:\Users\tamar\AndroidStudioProjects\here\here\android\app\src\main\AndroidManifest.xml:17:9-42
+27        <activity
+27-->C:\Users\tamar\AndroidStudioProjects\here\here\android\app\src\main\AndroidManifest.xml:19:9-27:20
+28            android:name="tamara.myappcompany.here.MainActivity"
+28-->C:\Users\tamar\AndroidStudioProjects\here\here\android\app\src\main\AndroidManifest.xml:20:13-65
+29            android:label="@string/app_name"
+29-->C:\Users\tamar\AndroidStudioProjects\here\here\android\app\src\main\AndroidManifest.xml:21:13-45
+30            android:screenOrientation="portrait" >
+30-->C:\Users\tamar\AndroidStudioProjects\here\here\android\app\src\main\AndroidManifest.xml:22:13-49
+31            <intent-filter>
+31-->C:\Users\tamar\AndroidStudioProjects\here\here\android\app\src\main\AndroidManifest.xml:23:13-26:29
+32                <action android:name="android.intent.action.MAIN" />
+32-->C:\Users\tamar\AndroidStudioProjects\here\here\android\app\src\main\AndroidManifest.xml:24:17-69
+32-->C:\Users\tamar\AndroidStudioProjects\here\here\android\app\src\main\AndroidManifest.xml:24:25-66
+33
+34                <category android:name="android.intent.category.LAUNCHER" />
+34-->C:\Users\tamar\AndroidStudioProjects\here\here\android\app\src\main\AndroidManifest.xml:25:17-77
+34-->C:\Users\tamar\AndroidStudioProjects\here\here\android\app\src\main\AndroidManifest.xml:25:27-74
+35            </intent-filter>
+36        </activity>
+37        <activity
+37-->C:\Users\tamar\AndroidStudioProjects\here\here\android\app\src\main\AndroidManifest.xml:29:9-32:20
+38            android:name="tamara.myappcompany.here.DetectorActivity"
+38-->C:\Users\tamar\AndroidStudioProjects\here\here\android\app\src\main\AndroidManifest.xml:30:13-69
+39            android:screenOrientation="portrait" >
+39-->C:\Users\tamar\AndroidStudioProjects\here\here\android\app\src\main\AndroidManifest.xml:31:13-49
+40        </activity>
+41        <activity
+41-->C:\Users\tamar\AndroidStudioProjects\here\here\android\app\src\main\AndroidManifest.xml:34:9-37:20
+42            android:name="tamara.myappcompany.here.CoursesGridFragment"
+42-->C:\Users\tamar\AndroidStudioProjects\here\here\android\app\src\main\AndroidManifest.xml:35:13-72
+43            android:screenOrientation="portrait" >
+43-->C:\Users\tamar\AndroidStudioProjects\here\here\android\app\src\main\AndroidManifest.xml:36:13-49
+44        </activity>
+45        <activity
+45-->C:\Users\tamar\AndroidStudioProjects\here\here\android\app\src\main\AndroidManifest.xml:38:9-41:20
+46            android:name="tamara.myappcompany.here.ProfileActivity"
+46-->C:\Users\tamar\AndroidStudioProjects\here\here\android\app\src\main\AndroidManifest.xml:38:19-74
+47            android:parentActivityName="tamara.myappcompany.here.CoursesGridFragment"
+47-->C:\Users\tamar\AndroidStudioProjects\here\here\android\app\src\main\AndroidManifest.xml:40:13-86
+48            android:screenOrientation="portrait" >
+48-->C:\Users\tamar\AndroidStudioProjects\here\here\android\app\src\main\AndroidManifest.xml:39:13-49
+49        </activity>
+50        <activity
+50-->C:\Users\tamar\AndroidStudioProjects\here\here\android\app\src\main\AndroidManifest.xml:42:9-44:20
+51            android:name="tamara.myappcompany.here.CameraActivity"
+51-->C:\Users\tamar\AndroidStudioProjects\here\here\android\app\src\main\AndroidManifest.xml:42:19-73
+52            android:screenOrientation="portrait" >
+52-->C:\Users\tamar\AndroidStudioProjects\here\here\android\app\src\main\AndroidManifest.xml:43:13-49
+53        </activity>
+54        <activity
+54-->C:\Users\tamar\AndroidStudioProjects\here\here\android\app\src\main\AndroidManifest.xml:45:9-47:20
+55            android:name="tamara.myappcompany.here.Settings_Page"
+55-->C:\Users\tamar\AndroidStudioProjects\here\here\android\app\src\main\AndroidManifest.xml:45:19-72
+56            android:screenOrientation="portrait" >
+56-->C:\Users\tamar\AndroidStudioProjects\here\here\android\app\src\main\AndroidManifest.xml:46:13-49
+57        </activity>
+58        <activity
+58-->C:\Users\tamar\AndroidStudioProjects\here\here\android\app\src\main\AndroidManifest.xml:48:9-50:20
+59            android:name="tamara.myappcompany.here.About_Page"
+59-->C:\Users\tamar\AndroidStudioProjects\here\here\android\app\src\main\AndroidManifest.xml:48:19-69
+60            android:screenOrientation="portrait" >
+60-->C:\Users\tamar\AndroidStudioProjects\here\here\android\app\src\main\AndroidManifest.xml:49:13-49
+61        </activity>
+62        <activity
+62-->C:\Users\tamar\AndroidStudioProjects\here\here\android\app\src\main\AndroidManifest.xml:51:9-53:20
+63            android:name="tamara.myappcompany.here.TutorialPage"
+63-->C:\Users\tamar\AndroidStudioProjects\here\here\android\app\src\main\AndroidManifest.xml:51:19-71
+64            android:screenOrientation="portrait" >
+64-->C:\Users\tamar\AndroidStudioProjects\here\here\android\app\src\main\AndroidManifest.xml:52:13-49
+65        </activity>
+66
+67        <provider
+67-->C:\Users\tamar\AndroidStudioProjects\here\here\android\app\src\main\AndroidManifest.xml:55:9-63:20
+68            android:name="androidx.core.content.FileProvider"
+68-->C:\Users\tamar\AndroidStudioProjects\here\here\android\app\src\main\AndroidManifest.xml:57:13-62
+69            android:authorities="tamara.myappcompany.here.fileprovider"
+69-->C:\Users\tamar\AndroidStudioProjects\here\here\android\app\src\main\AndroidManifest.xml:56:13-72
+70            android:exported="false"
+70-->C:\Users\tamar\AndroidStudioProjects\here\here\android\app\src\main\AndroidManifest.xml:59:13-37
+71            android:grantUriPermissions="true" >
+71-->C:\Users\tamar\AndroidStudioProjects\here\here\android\app\src\main\AndroidManifest.xml:58:13-47
+72            <meta-data
+72-->C:\Users\tamar\AndroidStudioProjects\here\here\android\app\src\main\AndroidManifest.xml:60:13-62:57
+73                android:name="android.support.FILE_PROVIDER_PATHS"
+73-->C:\Users\tamar\AndroidStudioProjects\here\here\android\app\src\main\AndroidManifest.xml:61:17-67
+74                android:resource="@xml/provider_paths" />
+74-->C:\Users\tamar\AndroidStudioProjects\here\here\android\app\src\main\AndroidManifest.xml:62:17-55
+75        </provider>
+76
+77        <service
+77-->[com.google.android.gms:play-services-mlkit-face-detection:16.1.1] C:\Users\tamar\.gradle\caches\transforms-2\files-2.1\d020dfc498b0624841f6c177ce45a056\jetified-play-services-mlkit-face-detection-16.1.1\AndroidManifest.xml:9:9-15:19
+78            android:name="com.google.mlkit.common.internal.MlKitComponentDiscoveryService"
+78-->[com.google.android.gms:play-services-mlkit-face-detection:16.1.1] C:\Users\tamar\.gradle\caches\transforms-2\files-2.1\d020dfc498b0624841f6c177ce45a056\jetified-play-services-mlkit-face-detection-16.1.1\AndroidManifest.xml:10:13-91
+79            android:directBootAware="true"
+79-->[com.google.mlkit:common:17.0.0] C:\Users\tamar\.gradle\caches\transforms-2\files-2.1\93100c655bcccb75576379b646607fdd\jetified-common-17.0.0\AndroidManifest.xml:17:13-43
+80            android:exported="false" >
+80-->[com.google.android.gms:play-services-mlkit-face-detection:16.1.1] C:\Users\tamar\.gradle\caches\transforms-2\files-2.1\d020dfc498b0624841f6c177ce45a056\jetified-play-services-mlkit-face-detection-16.1.1\AndroidManifest.xml:11:13-37
+81            <meta-data
+81-->[com.google.android.gms:play-services-mlkit-face-detection:16.1.1] C:\Users\tamar\.gradle\caches\transforms-2\files-2.1\d020dfc498b0624841f6c177ce45a056\jetified-play-services-mlkit-face-detection-16.1.1\AndroidManifest.xml:12:13-14:85
+82                android:name="com.google.firebase.components:com.google.mlkit.vision.face.internal.FaceRegistrar"
+82-->[com.google.android.gms:play-services-mlkit-face-detection:16.1.1] C:\Users\tamar\.gradle\caches\transforms-2\files-2.1\d020dfc498b0624841f6c177ce45a056\jetified-play-services-mlkit-face-detection-16.1.1\AndroidManifest.xml:13:17-114
+83                android:value="com.google.firebase.components.ComponentRegistrar" />
+83-->[com.google.android.gms:play-services-mlkit-face-detection:16.1.1] C:\Users\tamar\.gradle\caches\transforms-2\files-2.1\d020dfc498b0624841f6c177ce45a056\jetified-play-services-mlkit-face-detection-16.1.1\AndroidManifest.xml:14:17-82
+84            <meta-data
+84-->[com.google.mlkit:vision-common:16.1.0] C:\Users\tamar\.gradle\caches\transforms-2\files-2.1\3f18de89e0c046b0a456f479f3b64123\jetified-vision-common-16.1.0\AndroidManifest.xml:12:13-14:85
+85                android:name="com.google.firebase.components:com.google.mlkit.vision.common.internal.VisionCommonRegistrar"
+85-->[com.google.mlkit:vision-common:16.1.0] C:\Users\tamar\.gradle\caches\transforms-2\files-2.1\3f18de89e0c046b0a456f479f3b64123\jetified-vision-common-16.1.0\AndroidManifest.xml:13:17-124
+86                android:value="com.google.firebase.components.ComponentRegistrar" />
+86-->[com.google.mlkit:vision-common:16.1.0] C:\Users\tamar\.gradle\caches\transforms-2\files-2.1\3f18de89e0c046b0a456f479f3b64123\jetified-vision-common-16.1.0\AndroidManifest.xml:14:17-82
+87            <meta-data
+87-->[com.google.mlkit:common:17.0.0] C:\Users\tamar\.gradle\caches\transforms-2\files-2.1\93100c655bcccb75576379b646607fdd\jetified-common-17.0.0\AndroidManifest.xml:20:13-22:85
+88                android:name="com.google.firebase.components:com.google.mlkit.common.internal.CommonComponentRegistrar"
+88-->[com.google.mlkit:common:17.0.0] C:\Users\tamar\.gradle\caches\transforms-2\files-2.1\93100c655bcccb75576379b646607fdd\jetified-common-17.0.0\AndroidManifest.xml:21:17-120
+89                android:value="com.google.firebase.components.ComponentRegistrar" />
+89-->[com.google.mlkit:common:17.0.0] C:\Users\tamar\.gradle\caches\transforms-2\files-2.1\93100c655bcccb75576379b646607fdd\jetified-common-17.0.0\AndroidManifest.xml:22:17-82
+90        </service>
+91
+92        <provider
+92-->[com.google.mlkit:common:17.0.0] C:\Users\tamar\.gradle\caches\transforms-2\files-2.1\93100c655bcccb75576379b646607fdd\jetified-common-17.0.0\AndroidManifest.xml:9:9-13:38
+93            android:name="com.google.mlkit.common.internal.MlKitInitProvider"
+93-->[com.google.mlkit:common:17.0.0] C:\Users\tamar\.gradle\caches\transforms-2\files-2.1\93100c655bcccb75576379b646607fdd\jetified-common-17.0.0\AndroidManifest.xml:10:13-78
+94            android:authorities="tamara.myappcompany.here.mlkitinitprovider"
+94-->[com.google.mlkit:common:17.0.0] C:\Users\tamar\.gradle\caches\transforms-2\files-2.1\93100c655bcccb75576379b646607fdd\jetified-common-17.0.0\AndroidManifest.xml:11:13-69
+95            android:exported="false"
+95-->[com.google.mlkit:common:17.0.0] C:\Users\tamar\.gradle\caches\transforms-2\files-2.1\93100c655bcccb75576379b646607fdd\jetified-common-17.0.0\AndroidManifest.xml:12:13-37
+96            android:initOrder="99" />
+96-->[com.google.mlkit:common:17.0.0] C:\Users\tamar\.gradle\caches\transforms-2\files-2.1\93100c655bcccb75576379b646607fdd\jetified-common-17.0.0\AndroidManifest.xml:13:13-35
+97
+98        <activity
+98-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\tamar\.gradle\caches\transforms-2\files-2.1\a2d5ccad37e4ab4333e1f1a55321a557\jetified-play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+99            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+99-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\tamar\.gradle\caches\transforms-2\files-2.1\a2d5ccad37e4ab4333e1f1a55321a557\jetified-play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+100            android:exported="false"
+100-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\tamar\.gradle\caches\transforms-2\files-2.1\a2d5ccad37e4ab4333e1f1a55321a557\jetified-play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+101            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+101-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\tamar\.gradle\caches\transforms-2\files-2.1\a2d5ccad37e4ab4333e1f1a55321a557\jetified-play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+102
+103        <meta-data
+103-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\tamar\.gradle\caches\transforms-2\files-2.1\04476d41e080bdaa3cd2640892000165\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+104            android:name="com.google.android.gms.version"
+104-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\tamar\.gradle\caches\transforms-2\files-2.1\04476d41e080bdaa3cd2640892000165\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+105            android:value="@integer/google_play_services_version" />
+105-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\tamar\.gradle\caches\transforms-2\files-2.1\04476d41e080bdaa3cd2640892000165\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+106    </application>
+107
+108</manifest>
